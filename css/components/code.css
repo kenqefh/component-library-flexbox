@@ -2,6 +2,7 @@
   display: block;
   padding: 16px 20px;
   background-color: var(--background-color--primary);
+  font-family: var(--system-font);
 }
 
 .code_red {

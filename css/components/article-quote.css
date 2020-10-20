@@ -1,0 +1,27 @@
+.article_quote {
+  color: var(--text-color--primary);
+  padding: 16px;
+  border: 1px solid var(--background-color--primary);
+  font-style: normal;
+
+  width: 640px;
+  box-sizing: content-box;
+  font-family: var(--body-font);
+}
+
+.article_quote__content {
+  font-weight: normal;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 24px;
+}
+
+.article_quote__autor {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-top: 16px;
+}

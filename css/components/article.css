@@ -4,10 +4,10 @@
 
 .article__title {
   font-family: var(--headings-font);
-
   font-style: normal;
   font-size: 20px;
   line-height: 28px;
+
   margin-bottom: 10px;
 }
 
