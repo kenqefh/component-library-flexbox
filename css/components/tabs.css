@@ -1,0 +1,23 @@
+.tablink--default {
+  background-color: var(--background-color--primary);
+  border: 1px solid var(--gray-color);
+  color: var(--gray-color);
+}
+.tablink--hover {
+  background-color: var(--background-color--primary);
+  border: 1px solid var(--gray-color);
+  color: var(--blue-color);
+}
+.tablink--active {
+  background-color: var(--white-color);
+  border: 1px solid var(--blue-color);
+  color: var(--blue-color);
+}
+
+.tab__link {
+  font-family: var(--body-font);
+  height: 40px;
+  padding: 0 16px;
+  border-radius: 4px 4px 0px 0px;
+  border-bottom: none;
+}

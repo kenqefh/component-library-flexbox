@@ -1,7 +1,8 @@
 @import "global.css";
 
 /**components*/
-@import "components/list_items.css";
+@import "components/vertical_list.css";
+
 @import "components/section.css";
 @import "components/article.css";
 @import "components/code.css";
@@ -16,6 +17,12 @@
 @import "components/article-button-styles.css";
 @import "components/article-button-sizes.css";
 @import "components/article-images.css";
+@import "components/tabs.css";
+@import "components/list_items.css";
+
+@import "components/article-banner.css";
+@import "components/tab_group.css";
+@import "components/card.css";
 
 /* TODO:
  * ////// Components
