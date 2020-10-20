@@ -1,5 +1,8 @@
 @import "global.css";
 
+/**components*/
+@import "components/list_items.css";
+
 /* TODO:
  * ////// Components
  * -> Tabs
@@ -8,5 +11,4 @@
  * -> Vertical List
  * -> Card
  */
-
 @import "page.css";

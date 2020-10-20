@@ -1,0 +1,19 @@
+.list_items {
+  list-style: none;
+}
+
+.list_items__item--link {
+  display: flex;
+  height: 40px;
+  justify-content: space-between;
+  padding: 0 16px;
+  align-items: center;
+  text-decoration: none;
+  color: var(--gray-color);
+  font-family: var(--headings-font);
+}
+
+.nav-item--active {
+  color: var(--blue-color);
+  background-color: var(--daybreak-color);
+}

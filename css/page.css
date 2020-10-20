@@ -1,0 +1,31 @@
+body {
+  background-color: var(--background-color--primary);
+}
+
+.header_page {
+  border: 1px solid #d9d9d9;
+  background-color: var(--white-color);
+}
+.header_page__image {
+  width: 80px;
+  height: 80px;
+  margin: 16px auto;
+  display: block;
+}
+
+.page {
+  display: flex;
+  max-width: 960px;
+  margin: 0 auto;
+  background-color: white;
+}
+.page__nav {
+  width: 200px;
+}
+.page__content {
+  width: calc(100% - 200px);
+  display: flex;
+  flex-direction: column;
+  border-left: 1px solid var(--light-color);
+  padding: 0 16px;
+}
