@@ -2,6 +2,9 @@
 
 /**components*/
 @import "components/list_items.css";
+@import "components/section.css";
+@import "components/article.css";
+@import "components/code.css";
 
 /* TODO:
  * ////// Components

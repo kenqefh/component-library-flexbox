@@ -24,8 +24,5 @@ body {
 }
 .page__content {
   width: calc(100% - 200px);
-  display: flex;
-  flex-direction: column;
   border-left: 1px solid var(--light-color);
-  padding: 0 16px;
 }
