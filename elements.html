@@ -218,32 +218,34 @@
             </div>
           </div>
           <pre class="code"> <code>
-&lt;img
-class="image image_rectangle"
-src="images/image_1.png"
-alt="img"
-/&gt;
+&lt;div class="article_images__child"&gt;
+  &lt;img
+    class="image image_rectangle"
+    src="images/image_1.png"
+    alt="img"
+  /&gt;
 &lt;/div&gt;
 &lt;div class="article_images__child"&gt;
-&lt;img
-class="image image_circle"
-src="images/image_1.png"
-alt="img"
-/&gt;
+  &lt;img
+    class="image image_circle"
+    src="images/image_1.png"
+    alt="img"
+  /&gt;
 &lt;/div&gt;
 &lt;div class="article_images__child"&gt;
-&lt;img
-class="image image_shadow image_rectangle"
-src="images/image_1.png"
-alt="img"
-/&gt;
+  &lt;img
+    class="image image_shadow image_rectangle"
+    src="images/image_1.png"
+    alt="img"
+  /&gt;
 &lt;/div&gt;
 &lt;div class="article_images__child"&gt;
-&lt;img
-class="image image_shadow image_circle"
-src="images/image_1.png"
-alt="img"
-/&gt;
+  &lt;img
+    class="image image_shadow image_circle"
+    src="images/image_1.png"
+    alt="img"
+  /&gt;
+&lt;/div&gt;
           </code> </pre>
         </article>
 
@@ -257,14 +259,18 @@ alt="img"
             </div>
           </div>
           <pre class="code"><code>
-            code..
+&lt;div&gt; class="tab"&gt;
+  &lt;button&gt; class="tab__link tablink--default"&gt;Default&lt;/button&gt;
+  &lt;button&gt;&gt; class="tab__link tablink--hover"&gt;Hover&lt;/button&gt;&gt;
+  &lt;button&gt; class="tab__link tablink--active"&gt;Active&lt;/button&gt;
+&lt;/div&gt;
           </code></pre>
         </article>
 
         <article class="article">
           <h3 class="article__title">List Items</h3>
           <div class="article__example">
-            <ul class="listitems ">
+            <ul class="listitems">
               <li>
                 <h4 class="listitems__item">List Item</h4>
               </li>
@@ -272,11 +278,26 @@ alt="img"
                 <h4 class="listitems__item listitem--hover">List Item Hover</h4>
               </li>
               <li>
-                <h4 class="listitems__item listitem--active">List Item Active</h4>
+                <h4 class="listitems__item listitem--active">
+                  List Item Active
+                </h4>
               </li>
+            </ul>
           </div>
           <pre class="code"><code>
-            code..
+&lt;ul class="listitems"&gt;
+  &lt;li&gt;
+    &lt;h4 class="listitems__item"&gt;List Item&lt;/h4&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;h4 class="listitems__item listitem--hover"&gt;List Item Hover&lt;/h4&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;h4 class="listitems__item listitem--active"&gt;
+      List Item Active
+    &lt;/h4&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
           </code></pre>
         </article>
       </section>
