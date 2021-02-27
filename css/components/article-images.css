@@ -1,5 +1,6 @@
 .article_images {
   display: flex;
+  flex-wrap: wrap;
 }
 .article_images__child {
   position: relative;

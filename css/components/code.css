@@ -3,6 +3,7 @@
   padding: 16px 20px;
   background-color: var(--background-color--primary);
   font-family: var(--system-font);
+  overflow-y: scroll;
 }
 
 .code_red {
